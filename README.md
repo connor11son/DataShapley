@@ -1,3 +1,5 @@
+Added conv_model example notebook to show how to estimate TMC Shap values with convolutional neural network
+
 Data Shapley: Equitable Valuation of Data for Machine Learning
 =====================================
 
