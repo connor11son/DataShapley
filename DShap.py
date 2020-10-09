@@ -233,7 +233,7 @@ class DShap(object):
                 self.vals_loo = self._calculate_loo_vals(sources=self.sources)
                 self.save_results(overwrite=True)
         print('LOO values calculated!')
-        tmc_run = True 
+        tmc_run = False 
         g_run = g_run and self.model_family in ['logistic', 'NN']
         while tmc_run or g_run:
             if g_run:
